@@ -74,7 +74,7 @@ This complete demo walks you through the whole process, which consists of these 
 export BASEDIR=$PROJECT/deploy/rg.databio.org
 export REFGENIE_RAW=/project/shefflab/www/refgenie_raw
 cd $BASEDIR
-git clone git@github.com:databio/dbg.git
+git clone git@github.com:refgenie/server_deploy_demo.git
 ```
 
 GENOMES points to pipeline output (referenced in the project config)
