@@ -1,0 +1,36 @@
+config_version: 0.3
+genome_folder: $GENOMES
+genome_servers: ['http://refgenomes.databio.org']
+remote_url_base: http://cloud.databio.org/refgenomes/
+genomes:
+  staging:
+    assets:
+      fasta:
+        asset_description: DNA sequences in the FASTA format, indexed FASTA (produced with samtools index) and chromosome sizes file
+        tags:
+          default:
+            asset_path: fasta
+            seek_keys:
+              fasta: demo.fa
+              fai: demo.fa.fai
+              chrom_sizes: demo.chrom.sizes
+            asset_digest: 178e1ec13ee8b2b53c67e68f618b6dbf
+            asset_parents: []
+        default_tag: default
+    genome_digest: fa7f432a0ca2a8bb224562f1c2f091e37937c4b0a5f5acf7
+  staging2:
+    assets:
+      fasta:
+        asset_description: DNA sequences in the FASTA format, indexed FASTA (produced with samtools index) and chromosome sizes file
+        tags:
+          default:
+            asset_path: fasta
+            seek_keys:
+              fasta: demo2.fa
+              fai: demo2.fa.fai
+              chrom_sizes: demo2.chrom.sizes
+            asset_digest: 095c8035e756f9c589a7485c2f465f1c
+            asset_parents: []
+        default_tag: default
+    genome_digest: 6f2e5266e233ef82ae4fa15fb621ed2843b19cbb5f099391
+genome_archive: /home/nsheff/code/dbg/archive

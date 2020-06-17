@@ -1,0 +1,4 @@
+sample_name,input_id,input_value,input_type,genome_description
+demo1-fasta,fasta,fasta/demo.fa.gz,files,d1
+demo2-fasta,fasta,fasta/demo2.fa.gz,files,d2
+demo3-fasta,fasta,fasta/demo3.fa.gz,files,
