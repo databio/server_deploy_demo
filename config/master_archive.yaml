@@ -18,17 +18,20 @@ genomes:
               chrom_sizes: demo1.chrom.sizes
             asset_digest: 178e1ec13ee8b2b53c67e68f618b6dbf
             asset_parents: []
-            archive_digest: 60b464320d13354f67778ef760c08ce4
-            archive_size: 274B
+            archive_digest: c0ed2916066d07568ecd51c53763b6d8
+            archive_size: 276B
             asset_size: 5.9KB
             asset_children: []
         default_tag: default
-    genome_digest: fa7f432a0ca2a8bb224562f1c2f091e37937c4b0a5f5acf7
     genome_description: d1
+    genome_digest: fa7f432a0ca2a8bb224562f1c2f091e37937c4b0a5f5acf7
   demo2:
+    genome_description: d2
+    genome_digest: 6f2e5266e233ef82ae4fa15fb621ed2843b19cbb5f099391
     assets:
       fasta:
         asset_description: DNA sequences in the FASTA format, indexed FASTA (produced with samtools index) and chromosome sizes file
+        default_tag: default
         tags:
           default:
             asset_path: fasta
@@ -36,19 +39,19 @@ genomes:
               fasta: demo2.fa
               fai: demo2.fa.fai
               chrom_sizes: demo2.chrom.sizes
-            asset_digest: 095c8035e756f9c589a7485c2f465f1c
-            asset_parents: []
-            archive_digest: 96450b65c49284ea6bd64db2a0ac14b2
-            archive_size: 295B
+            archive_digest: 47871a304ba1c790f6428cdb25fea4a4
+            archive_size: 294B
             asset_size: 5.9KB
+            asset_parents: []
             asset_children: []
-        default_tag: default
-    genome_digest: 6f2e5266e233ef82ae4fa15fb621ed2843b19cbb5f099391
-    genome_description: d2
+            asset_digest: 095c8035e756f9c589a7485c2f465f1c
   demo3:
+    genome_description: No description
+    genome_digest: 52c0a74bf4afa6dcfc96531f9f1215f270a014421e0f3852
     assets:
       fasta:
         asset_description: DNA sequences in the FASTA format, indexed FASTA (produced with samtools index) and chromosome sizes file
+        default_tag: default
         tags:
           default:
             asset_path: fasta
@@ -56,11 +59,9 @@ genomes:
               fasta: demo3.fa
               fai: demo3.fa.fai
               chrom_sizes: demo3.chrom.sizes
-            asset_digest: ba86502af816164011d20f0e8c4de1a7
-            asset_parents: []
-            archive_digest: ffc20e26701629cf47c4c9185b64b2ef
-            archive_size: 281B
+            archive_digest: a42e4087358bbc542bd6ca15cd206b71
+            archive_size: 284B
             asset_size: 5.9KB
+            asset_parents: []
             asset_children: []
-        default_tag: default
-    genome_digest: 52c0a74bf4afa6dcfc96531f9f1215f270a014421e0f3852
+            asset_digest: ba86502af816164011d20f0e8c4de1a7
