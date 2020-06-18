@@ -1,0 +1,5 @@
+pep_version: 2.0.0
+sample_table: assets.csv
+looper:
+  output_dir: $GENOMES/archive_logs
+  pipeline_interfaces: ../pipeline_interfaces/archive_piface.yaml
