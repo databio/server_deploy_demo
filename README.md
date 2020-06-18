@@ -90,7 +90,7 @@ this renames them to a systematic naming, based on genome name,
 asset name, input type, and input name
 
 ```
-cd dbg
+cd server_deploy_demo
 mkdir -p $REFGENIE_RAW
 looper run asset_pep/refgenie_build_cfg.yaml -p local --amend getfiles
 ```
@@ -106,7 +106,7 @@ bulker activate databio/refgenie:0.7.3
 Or you can use `-p bulker_local` and use the crate already specified in the pipeline interface.
 
 ```
-export REFGENIE=$BASEDIR/dbg/config/master.yaml
+export REFGENIE=$BASEDIR/server_deploy_demo/config/master.yaml
 looper run asset_pep/refgenie_build_cfg.yaml -p local
 ```
 
