@@ -5,7 +5,7 @@ compute:
   bulker_crate: databio/refgenie:0.7.3
 command_template: >
   refgenie build { sample.genome }/{ sample.asset }
-  {% if sample.genome_description is defined %}--genome-description { sample.genome_description }{% endif %}
+  {% if sample.genome_description is defined %}--genome-description "{ sample.genome_description }"{% endif %}
   {%- if sample.input_value is defined -%}
     {%- for it in sample.input_type -%}
       {%- if it == 'files' -%}
