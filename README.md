@@ -73,6 +73,7 @@ This complete demo walks you through the whole process, which consists of these 
 #export REFGENIE_RAW=$BASEDIR/refgenie_raw
 export BASEDIR=$PROJECT/deploy/rg.databio.org
 export REFGENIE_RAW=/project/shefflab/www/refgenie_raw
+mkdir -p $REFGENIE_RAW
 cd $BASEDIR
 git clone git@github.com:refgenie/server_deploy_demo.git
 ```
@@ -90,7 +91,7 @@ this renames them to a systematic naming, based on genome name,
 asset name, input type, and input name
 
 ```
-cd dbg
+cd server_deploy_demo
 mkdir -p $REFGENIE_RAW
 looper run asset_pep/refgenie_build_cfg.yaml -p local --amend getfiles
 ```
