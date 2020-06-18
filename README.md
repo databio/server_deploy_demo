@@ -113,7 +113,7 @@ looper run asset_pep/refgenie_build_cfg.yaml -p local
 ### Archive
 
 ```
-looper runp asset_pep/refgenie_build_cfg.yaml -p local
+looper run asset_pep/refgenie_build_cfg.yaml
 export REFGENIE_ARCHIVE=$GENOMES/archive
 aws s3 sync $REFGENIE_ARCHIVE s3://cloud.databio.org/refgenie
 ```
