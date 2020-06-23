@@ -1,4 +1,4 @@
-sample_name,input_id,input_value,input_type,genome_description,md5
-demo1-fasta,fasta,fasta/demo.fa.gz,files,d1,42f32c4525ae084cb135cd9899891983
-demo2-fasta,fasta,fasta/demo2.fa.gz,files,d2,105bab4dc95ebe8148323285ffae9452
-demo3-fasta,fasta,fasta/demo3.fa.gz,files,,50dd1df67a564ef6c1dd1935090fba0d
+sample_name,input_id,input_value,input_type,md5
+demo1-fasta,fasta,fasta/demo.fa.gz,files,42f32c4525ae084cb135cd9899891983
+demo2-fasta,fasta,fasta/demo2.fa.gz,files,105bab4dc95ebe8148323285ffae9452
+demo3-fasta,fasta,fasta/demo3.fa.gz,files,50dd1df67a564ef6c1dd1935090fba0d

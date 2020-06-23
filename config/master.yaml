@@ -19,7 +19,7 @@ genomes:
             asset_digest: 178e1ec13ee8b2b53c67e68f618b6dbf
             asset_parents: []
         default_tag: default
-    genome_description: d1
+    genome_description: The demo1 genome
     genome_digest: fa7f432a0ca2a8bb224562f1c2f091e37937c4b0a5f5acf7
   demo2:
     assets:
@@ -35,7 +35,7 @@ genomes:
             asset_digest: 095c8035e756f9c589a7485c2f465f1c
             asset_parents: []
         default_tag: default
-    genome_description: d2
+    genome_description: The section demo genome
     genome_digest: 6f2e5266e233ef82ae4fa15fb621ed2843b19cbb5f099391
   demo3:
     assets:
@@ -52,3 +52,4 @@ genomes:
             asset_parents: []
         default_tag: default
     genome_digest: 52c0a74bf4afa6dcfc96531f9f1215f270a014421e0f3852
+    genome_description: The third demo genome

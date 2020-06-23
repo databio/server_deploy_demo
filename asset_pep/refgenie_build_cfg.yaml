@@ -1,6 +1,6 @@
 pep_version: 2.0.0
 sample_table: assets.csv
-subsample_table: recipe_inputs.csv
+subsample_table: [recipe_inputs.csv, genome_descriptions.csv]
 looper:
   output_dir: $GENOMES
   pipeline_interfaces: ../pipeline_interfaces/archive_pi.yaml
